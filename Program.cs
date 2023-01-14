@@ -5,7 +5,7 @@
 
 string[] strings = { "мир", "Привет", "Строка", "C#", "777"}; 
 List<string> result = new List<string>();    // создаю новый список для результатов
-foreach (string s in strings)                // прохожу по массиву
+foreach (string s in strings)                // прохожу по массиву, в переменную s помещаю каждую строку из массива
 {
     // если в строке меньше или три символа, добавляю в список
     if (s.Length <= 3)
