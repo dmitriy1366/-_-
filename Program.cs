@@ -3,10 +3,11 @@
 // Первоначальный массив можно ввести с клавиатуры, либо задать на старте
 //  выполнения алгоритма.
 
-string[] strings = { "мир", "Привет", "Строка", "C#", "777"};
-List<string> result = new List<string>();
-foreach (string s in strings)
+string[] strings = { "мир", "Привет", "Строка", "C#", "777"}; 
+List<string> result = new List<string>();    // создаю новый список для результатов
+foreach (string s in strings)                // прохожу по массиву
 {
+    // если в строке меньше или три символа, добавляю в список
     if (s.Length <= 3)
     {
         result.Add(s);
